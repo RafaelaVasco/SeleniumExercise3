@@ -17,7 +17,7 @@ public class LoginFormPage {
     @FindBy(id = "login-button")
     private WebElement btnLogin;
 
-    public final String url = "https://www.saucedemo.com";
+    private final String url = "https://www.saucedemo.com";
 
     public LoginFormPage(WebDriver driver) {
         this.driver = driver;
